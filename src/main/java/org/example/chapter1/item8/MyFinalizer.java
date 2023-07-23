@@ -1,9 +1,9 @@
 package org.example.chapter1.item8;
 
-public class MyClass {
+public class MyFinalizer {
     private int checkNum;
 
-    public MyClass(int checkNum) {
+    public MyFinalizer(int checkNum) {
         this.checkNum =checkNum;
     }
 

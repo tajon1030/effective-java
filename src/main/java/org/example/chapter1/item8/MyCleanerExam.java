@@ -2,7 +2,7 @@ package org.example.chapter1.item8;
 
 public class MyCleanerExam {
     public static void main(String[] args) throws Exception {
-        // 3. MyClass 객체를 생성 doSomething() 메소드를 호출하면 Resource 객체가 활용
+        // 3. MyClass 객체를 생성 doSomethi2ng() 메소드를 호출하면 Resource 객체가 활용
         try (MyCleaner obj = new MyCleaner()) {
             obj.doSomething();
         }

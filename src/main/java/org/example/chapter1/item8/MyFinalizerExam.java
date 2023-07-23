@@ -4,7 +4,7 @@ public class MyFinalizerExam {
     public static void main(String[] args) {
 
         for(int i = 0; i < 100000; i++) {
-            MyClass test = new MyClass(i);
+            MyFinalizer test = new MyFinalizer(i);
 
             test = null;
             //null 값을 넣어 기존에 있는 값을 쓰레기로 만듬
