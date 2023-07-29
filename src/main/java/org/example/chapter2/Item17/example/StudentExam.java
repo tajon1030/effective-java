@@ -17,11 +17,9 @@ public class StudentExam {
 
         Friend friend = new Friend("친구1");
 
-        String name = "값이";
-
         Student student3 = new Student("나3", friend);
+        System.out.println(student3.getFriend());
         friend.name = "친구2";
-
-
+        System.out.println(student3.getFriend());
     }
 }

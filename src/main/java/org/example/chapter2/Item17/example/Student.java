@@ -5,6 +5,15 @@ public  class Student {
     private boolean isGoodStudy;
     private  int grade;
 
+    public Friend getFriend() {
+        return friend;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
+
     private Friend friend;
 
     public Student(String name, Friend friend) {
