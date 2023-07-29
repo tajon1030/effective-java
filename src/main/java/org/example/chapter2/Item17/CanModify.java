@@ -11,7 +11,6 @@ public class CanModify {
         this.name = canModify.name;
     }
 
-
     public String name() {
         return name;
     }
