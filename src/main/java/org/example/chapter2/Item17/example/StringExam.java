@@ -15,10 +15,10 @@ public class StringExam {
         ImmutableStringBuilder immutableString2 = new ImmutableStringBuilder(name2);
         name2.append("바뀔까");
         System.out.println(immutableString2);
-
-        String name = "값이";
-        name.concat("바뀔까");
-        parentClass parentClass = new parentClass(name);
-        parentClass.setName("값을");
+//
+//        String name = "값이";
+//        name.concat("바뀔까");
+//        parentClass parentClass = new parentClass(name);
+//        parentClass.setName("값을");
     }
 }

@@ -1,41 +1,27 @@
 package org.example.chapter2.Item17.example;
 
-public  class Student {
+import java.util.List;
+
+public class Student {
     private String name;
     private boolean isGoodStudy;
     private  int grade;
+    private Friend friend;
+    private List<Friend> friends;
+
 
     public Friend getFriend() {
         return friend;
     }
 
-    @Override
-    public String toString() {
-        return super.toString();
-    }
-
-    private Friend friend;
-
     public Student(String name, Friend friend) {
         this.name = name;
-        this.friend = friend;
-//        this.friend = new Friend(name);
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setGoodStudy(boolean goodStudy) {
-        isGoodStudy = goodStudy;
+//        this.friend = friend;/**/
+        this.friend = new Friend(name);
     }
 
     public String getName() {
         return name;
-    }
-
-    public void setGrade(int grade) {
-        this.grade = grade;
     }
 
     public int getGrade() {

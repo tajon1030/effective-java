@@ -7,7 +7,7 @@ public class classService {
     }
 
     static void increaseGrade(Student student){
-        student.setGrade(student.getGrade() + 10);
-        System.out.println("점수 + 10");
+//        student.setGrade(student.getGrade() + 10);
+//        System.out.println("점수 + 10" + student.getGrade());
     }
 }
