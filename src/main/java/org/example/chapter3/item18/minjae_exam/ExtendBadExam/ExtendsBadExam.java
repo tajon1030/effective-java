@@ -9,7 +9,7 @@ public class ExtendsBadExam {
         mbti.add("N");
         mbti.add("P");
         FPerson fperson = new FPerson(mbti);
-        System.out.println(fperson.getAll() + " : 상속");
+//        System.out.println(fperson.getAll());
 
     }
 }
