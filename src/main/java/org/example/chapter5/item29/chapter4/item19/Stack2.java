@@ -9,9 +9,9 @@ public class Stack2<E> {
     private static final int DEFAULT_INITIAL_CAPACITY = 16;
 
     // 컴파일 에러 발생
-    public Stack2() {
-        elements = new E[DEFAULT_INITIAL_CAPACITY];
-    }
+//    public Stack2() {
+//        elements = new E[DEFAULT_INITIAL_CAPACITY];
+//    }
 
     public void push(E e) {
         ensureCapacity();
